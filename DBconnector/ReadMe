@@ -1,0 +1,43 @@
+
+Author: Abhisar Mohapatra
+
+Email : abhisar.mhptr@gmail.com
+
+
+HELLO EVERYONE !!!!
+
+This is a small project that would simplify the complexity of writing JDBC connection code.
+This doc has been written with specific to Eclipse development environment
+
+All you have to do is the following :
+
+Step 1: First download the respective DataBase jars from vendor website.
+
+Step 2: Right click on your project on eclipse.
+        Then Properties ---> Java Build Path -->Libraries.
+        In right side there would a option to include external jars.Just click it 
+        and select the downloaded jars.
+
+Step 3: Repeat step 2 again but this time include the jar i have provided i.e DBconnector.jar
+
+Step 4: Copy the configurations.xml file from this folder to your project directory.
+
+Step 5: Edit the config file according to your connection and this is it .
+        By default I have given a sample connection credentials
+        You are ready to go.
+
+Step 6: To make establish a connection and make use of it you just have to type this much in your program.
+
+      
+
+        db_connector db = new db_connector();
+        Connection x = db.getConn();
+        
+
+N.B : Please enter your db_driver propery in configuration.XML based on your database.
+      A simple google search for class names for JDBC to connect to oracle or db2 or mysql or postgres will 
+      do the trick .
+
+
+
+

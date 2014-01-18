@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<database_configuration>
+	<config>
+		<db_vendor>jdbc:postgresql</db_vendor>
+		<db_driver>org.postgresql.Driver</db_driver>
+		<db_url>127.0.0.1:5432</db_url>
+		<db_name>sample_jdbc</db_name>
+		<user_name>abhisar</user_name>
+		<password>sabertooth</password>
+	</config>
+</database_configuration>
